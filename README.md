@@ -15,7 +15,7 @@ JavaScript
 
 3. To add a new project:
 
-  a. Click on the ‘Add Project’ button.
+  1. Click on the ‘Add Project’ button.
   b. Enter the project name, due date, and due time in the form.
   c. Click on the ‘Save’ button to save the project.
 
