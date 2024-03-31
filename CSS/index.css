@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.container p{
+    /* margin-left: 20%; */
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+}
+#projects-section p{
+    margin-top: 10%;
+}
+#projects-list {
+    margin-top: 5%;
+  color: white;
+  font-weight: 200;
+}
+#projects-list button {
+    padding: 4px 10px;
+    border: none;
+    background-color: white;
+  color: #003252;
+  font-weight: 200;
+}
+
+#project-form {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+#project-form button{
+    padding: 4px 10px;
+    /* margin-left: 20px; */
+    border: none;
+    background-color: white;
+  color: #003252;
+  font-weight: 200;
+}
+
+#project-form input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#project-form button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container{
+    background-color: #003252;
+    width: 100%;
+}
+
+#details{
+    margin-top: 1%;
+}
+
+#deleted-projects {
+    margin-top: 20px;
+  color: white;
+  font-weight: 200;
+}
+
+#bin-section p{
+  margin-top: 10%;
+}
+
+#bin-section i{
+   font-size: large;
+   font-weight: 300;
+}
+  
+
+#deleted-projects button {
+    padding: 4px 10px;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+  color: #003252;
+  font-weight: 200;
+}
+#add-project-btn{
+    margin-top: 5%;
+    margin-left: 44%;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    border-radius: 5%;
+    background-color: #08649c;
+  color: white;
+  font-weight: 200;
+}
+

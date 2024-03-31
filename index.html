@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager App</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>Project Manager</h1>
+
+
+        <div id="projects-section">
+            <p>Projects</p>
+            <div id="projects-list">
+            </div>
+            <button id="add-project-btn">Add Project</button>
+        </div>
+
+        <div id="project-form" style="display: none;">
+            <input type="text" id="project-name" placeholder="Enter project name">
+           
+         <div id="details">
+            <input type="date" id="due-date">
+            <input type="time" id="due-time">
+            <button id="save-project-btn">Save</button>
+            <button id="cancel-project-btn">Cancel</button>
+        </div>
+        </div>
+
+        <!-- Bin Section -->        
+        <div id="bin-section" style="display: none;">
+            <p id="toggle-completed-projects">Completed <i class='bx bx-chevron-down'></i></p>
+            
+            <div id="deleted-projects">
+                <!-- Deleted projects will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Completed Section -->
+        <div id="completed-section" style="display: none;">
+            <h2>Completed</h2>
+            <div id="completed-projects">
+                <!-- Completed projects will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="./Js/index.js"></script>
+</body>
+</html>
